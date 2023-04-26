@@ -45,7 +45,7 @@ app.MapGet("/user/getall", ([FromServices] IDataRepository db) =>
     return db.GetAll();
 });
 
-app.MapGet("/user/delete/{id}", ([FromServices] IDataRepository db, int id) =>
+app.MapGet("/user/delete", ([FromServices] IDataRepository db, int id) =>
 {
     return db.DeleteById(id);
 });

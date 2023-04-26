@@ -15,23 +15,11 @@ services:
     build:
       context: .
       dockerfile: UserService/Dockerfile
-    ports:
-     - 8003:80
 
   messagingservice:
-    image: ${DOCKER_REGISTRY-}messagingservice
+    image: ${DOCKER_REGISTRY-}userservice
     build:
       context: .
-      dockerfile: MessagingService/Dockerfile
-    ports:
-     - 8002:80
-
-  gateway:
-    image: ${DOCKER_REGISTRY-}gateway
-    build:
-      context: .
-      dockerfile: Gateway/Dockerfile
-    ports:
-     - 8001:80
+      dockerfile: UserService/Dockerfile
 
   
