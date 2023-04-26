@@ -1,0 +1,135 @@
+﻿{
+  "Routes": [
+    //UserService
+    //AddUser
+    {
+      "DownstreamPathTemplate": "/user/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/user/add",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    //GetById
+    {
+      "DownstreamPathTemplate": "/user/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //GetAll
+    {
+      "DownstreamPathTemplate": "/user/getall",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/user/getall",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //DeleteById
+    {
+      "DownstreamPathTemplate": "/user/delete{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/user/delete{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    //MessagingService
+    //AddMessage
+    {
+      "DownstreamPathTemplate": "/message/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/message/add",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    //GetById
+    {
+      "DownstreamPathTemplate": "/message/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/message/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //GetAll
+    {
+      "DownstreamPathTemplate": "/message/getall",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/message/getall",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //DeleteById
+    {
+      "DownstreamPathTemplate": "/message/delete{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/message/delete{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "UserService",
+      "Config": [
+        {
+          "Name": "User Microservice API",
+          "Version": "v1",
+          "Url": "https://localhost:5001/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "MessagingService",
+      "Config": [
+        {
+          "Name": "Messaging Microservice API",
+          "Version": "v1",
+          "Url": "https://localhost:5002/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+
+  }
+}

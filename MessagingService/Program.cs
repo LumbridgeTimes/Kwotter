@@ -44,7 +44,7 @@ app.MapGet("/message/getall", ([FromServices] IDataRepository db) =>
     return db.GetAll();
 });
 
-app.MapGet("/message/delete", ([FromServices] IDataRepository db, int id) =>
+app.MapGet("/message/delete/{id}", ([FromServices] IDataRepository db, int id) =>
 {
     return db.DeleteById(id);
 });
