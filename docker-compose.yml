@@ -16,4 +16,10 @@ services:
       context: .
       dockerfile: UserService/Dockerfile
 
+  messagingservice:
+    image: ${DOCKER_REGISTRY-}userservice
+    build:
+      context: .
+      dockerfile: UserService/Dockerfile
+
   
