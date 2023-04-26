@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4K0QoDem1rAuRdstNfRa4Xp8kwPlMok9kNRRGjaNku5M2s4CkhJAOnCxeMKZKRejoGwp2YQOqX55y+OEJjGpKg==",
+  "dgSpecHash": "idLCqq1IDkbDR81PS+JRbbxFM/+3mYips961e+EiRCGFaQS6fd+vDBdmRWfrm5u2N7HOZD+WDvBU/yGkC6E9hA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yarik\\source\\repos\\Kwotter\\UserService\\UserService.csproj",
+  "projectFilePath": "C:\\Users\\yarik\\source\\repos\\Kwotter2\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yarik\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
