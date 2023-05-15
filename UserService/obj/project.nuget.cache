@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "jN4+1cnl5EJL+BkRYUOt5ZIbQplYcy9B72yGr3VUf1w6gtS7V++io1UmbmIT1ImMZasVftX1vTYmQO3nJV6Xdw==",
+  "dgSpecHash": "E9iIg+XlVGJ6mtCT0jRKbiNqDrcc+Gs56lrq+F2StHG/tkpl5BOgp7wva1xLjQhu8bSXJ9ugQQsHW9vaG41MFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\yarik\\source\\repos\\Kwotter2\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yarik\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -44,7 +47,13 @@
     "C:\\Users\\yarik\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\mongodb.bson\\2.19.1\\mongodb.bson.2.19.1.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\mongodb.driver\\2.19.1\\mongodb.driver.2.19.1.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\mongodb.driver.core\\2.19.1\\mongodb.driver.core.2.19.1.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\mongodb.libmongocrypt\\1.7.0\\mongodb.libmongocrypt.1.7.0.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
@@ -78,7 +87,8 @@
     "C:\\Users\\yarik\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\yarik\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\yarik\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\yarik\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\yarik\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
   "logs": []
 }
