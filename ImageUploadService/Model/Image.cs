@@ -15,7 +15,7 @@ namespace ImageUploadService.Model
         public int userId { get; set; }
 
         [BsonElement("image")]
-        public Binary? image { get; set; }
+        public string image { get; set; }
 
     }
 }
