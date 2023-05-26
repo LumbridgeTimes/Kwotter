@@ -18,7 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagingService", "Messagi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingService", "MessagingService\MessagingService.csproj", "{0DB56D9B-7A92-4670-BD3B-0FBDB90211D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessLikeCounter", "ServerlessLikeCounter\ServerlessLikeCounter.csproj", "{86ECFDF1-BF64-48C5-A941-F667691CDF16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessLikeCounter", "ServerlessLikeCounter\ServerlessLikeCounter.csproj", "{86ECFDF1-BF64-48C5-A941-F667691CDF16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerlessLikeCounter", "ServerlessLikeCounter", "{FD9060C0-6F5B-400C-8DD2-8A7D27825A78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,8 @@ Global
 		{92987614-7670-4AC2-A3F4-AE78C06296F1} = {FC8BA749-F356-45BD-87B4-841F4DCE0ED4}
 		{4AB519B8-8D8E-4292-B367-47A7E3178604} = {FC8BA749-F356-45BD-87B4-841F4DCE0ED4}
 		{0DB56D9B-7A92-4670-BD3B-0FBDB90211D9} = {4AB519B8-8D8E-4292-B367-47A7E3178604}
+		{86ECFDF1-BF64-48C5-A941-F667691CDF16} = {FD9060C0-6F5B-400C-8DD2-8A7D27825A78}
+		{FD9060C0-6F5B-400C-8DD2-8A7D27825A78} = {FC8BA749-F356-45BD-87B4-841F4DCE0ED4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4AC6B62-189E-4970-8CC6-9BBFBC52B127}
